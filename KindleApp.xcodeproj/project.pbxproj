@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA27B29231F013D00521258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA27B28231F013D00521258 /* AppDelegate.swift */; };
+		2FA27B2B231F013D00521258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA27B2A231F013D00521258 /* ViewController.swift */; };
+		2FA27B30231F013E00521258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA27B2F231F013E00521258 /* Assets.xcassets */; };
+		2FA27B33231F013E00521258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA27B31231F013E00521258 /* LaunchScreen.storyboard */; };
+		2FA27B3B231F047B00521258 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA27B3A231F047B00521258 /* Book.swift */; };
+		2FA27B3D231F064600521258 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA27B3C231F064600521258 /* Page.swift */; };
+		2FBEBB9C23203EBF002F251D /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEBB9B23203EBF002F251D /* BookCell.swift */; };
+		2FBEBB9E2321C4DB002F251D /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEBB9D2321C4DB002F251D /* BookPagerController.swift */; };
+		2FDD5C722327972F009C8C29 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD5C712327972F009C8C29 /* PageCell.swift */; };
+		2FDD5C74232D5515009C8C29 /* LightstatusBarNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD5C73232D5515009C8C29 /* LightstatusBarNavController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FA27B25231F013D00521258 /* KindleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA27B28231F013D00521258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FA27B2A231F013D00521258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FA27B2F231F013E00521258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA27B32231F013E00521258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FA27B34231F013E00521258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA27B3A231F047B00521258 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2FA27B3C231F064600521258 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2FBEBB9B23203EBF002F251D /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		2FBEBB9D2321C4DB002F251D /* BookPagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
+		2FDD5C712327972F009C8C29 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		2FDD5C73232D5515009C8C29 /* LightstatusBarNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightstatusBarNavController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA27B22231F013D00521258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA27B1C231F013D00521258 = {
+			isa = PBXGroup;
+			children = (
+				2FA27B27231F013D00521258 /* KindleApp */,
+				2FA27B26231F013D00521258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA27B26231F013D00521258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA27B25231F013D00521258 /* KindleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA27B27231F013D00521258 /* KindleApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FA27B28231F013D00521258 /* AppDelegate.swift */,
+				2FDD5C73232D5515009C8C29 /* LightstatusBarNavController.swift */,
+				2FA27B2A231F013D00521258 /* ViewController.swift */,
+				2FBEBB9D2321C4DB002F251D /* BookPagerController.swift */,
+				2FA27B3A231F047B00521258 /* Book.swift */,
+				2FDD5C712327972F009C8C29 /* PageCell.swift */,
+				2FA27B3C231F064600521258 /* Page.swift */,
+				2FBEBB9B23203EBF002F251D /* BookCell.swift */,
+				2FA27B2F231F013E00521258 /* Assets.xcassets */,
+				2FA27B31231F013E00521258 /* LaunchScreen.storyboard */,
+				2FA27B34231F013E00521258 /* Info.plist */,
+			);
+			path = KindleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA27B24231F013D00521258 /* KindleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA27B37231F013E00521258 /* Build configuration list for PBXNativeTarget "KindleApp" */;
+			buildPhases = (
+				2FA27B21231F013D00521258 /* Sources */,
+				2FA27B22231F013D00521258 /* Frameworks */,
+				2FA27B23231F013D00521258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindleApp;
+			productName = KindleApp;
+			productReference = 2FA27B25231F013D00521258 /* KindleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA27B1D231F013D00521258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Carlos Gonzalez";
+				TargetAttributes = {
+					2FA27B24231F013D00521258 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2FA27B20231F013D00521258 /* Build configuration list for PBXProject "KindleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA27B1C231F013D00521258;
+			productRefGroup = 2FA27B26231F013D00521258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA27B24231F013D00521258 /* KindleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA27B23231F013D00521258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA27B33231F013E00521258 /* LaunchScreen.storyboard in Resources */,
+				2FA27B30231F013E00521258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA27B21231F013D00521258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBEBB9E2321C4DB002F251D /* BookPagerController.swift in Sources */,
+				2FA27B2B231F013D00521258 /* ViewController.swift in Sources */,
+				2FDD5C74232D5515009C8C29 /* LightstatusBarNavController.swift in Sources */,
+				2FA27B29231F013D00521258 /* AppDelegate.swift in Sources */,
+				2FA27B3D231F064600521258 /* Page.swift in Sources */,
+				2FA27B3B231F047B00521258 /* Book.swift in Sources */,
+				2FBEBB9C23203EBF002F251D /* BookCell.swift in Sources */,
+				2FDD5C722327972F009C8C29 /* PageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FA27B31231F013E00521258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA27B32231F013E00521258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA27B35231F013E00521258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA27B36231F013E00521258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA27B38231F013F00521258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6LDVC9H93;
+				INFOPLIST_FILE = KindleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlosGonzalez.KindleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FA27B39231F013F00521258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6LDVC9H93;
+				INFOPLIST_FILE = KindleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarlosGonzalez.KindleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA27B20231F013D00521258 /* Build configuration list for PBXProject "KindleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA27B35231F013E00521258 /* Debug */,
+				2FA27B36231F013E00521258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA27B37231F013E00521258 /* Build configuration list for PBXNativeTarget "KindleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA27B38231F013F00521258 /* Debug */,
+				2FA27B39231F013F00521258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA27B1D231F013D00521258 /* Project object */;
+}
